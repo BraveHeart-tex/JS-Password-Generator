@@ -63,7 +63,6 @@ function generatePassword() {
       numbers,
       utils.getRandomNumberBetween(3, passLength / 3)
     );
-    console.log(tempPassword);
   }
   if (includeSymbols) {
     tempPassword += utils.getCharsFromArr(
